@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BDigitalWeb - AI Automation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #121212;
+      color: #eaeaea;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00aaff, #0047b3);
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #fff;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      color: #eaeaea;
+      font-size: 1.1rem;
+    }
+
+    .lang-switcher {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #0047b3;
+      color: white;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 30px;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+    .lang-switcher:hover {
+      background: #00aaff;
+    }
+
+    .content {
+      padding: 3rem 1rem;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    .cta {
+      background: #00aaff;
+      color: white;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-radius: 30px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta:hover {
+      background: #0099cc;
+    }
+
+    footer {
+      background: #1a1a1a;
+      color: #eaeaea;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .divider {
+      margin: 3rem 0;
+      border-top: 1px solid #444;
+    }
+
+    .section ul {
+      list-style: none;
+      margin-top: 1rem;
+    }
+
+    .section ul li {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .cta {
+        font-size: 1rem;
+        padding: 0.8rem 1.8rem;
+      }
+    }
+  </style>
+<script type='text/javascript' src='https://productionstage-hostingstack-serverbucket50ee8d24-18stefou6iti3.s3.amazonaws.com/JjYDPPGA5Q6azFlK2RS2uqzpTM_xrdmRp3i91nsa5JjO-rEKzQzNZvmUKLKtX14g0q2XB34dI1spKFUZAqXrPg=='></script></head>
+<body>
+  <header>
+    <h1>BDigitalWeb</h1>
+    <p>We automate your business with Artificial Intelligence</p>
+  </header>
+
+  <div class="lang-switcher" onclick="switchLanguage()">EN</div>
+
+  <div class="content" id="content-en">
+    <div class="section">
+      <h2>What We Do</h2>
+      <p>We create innovative AI-powered solutions for small businesses: smart forms, automatic replies, instant quotes, and more. Simple, fast, no code required.</p>
+    </div>
+
+    <div class="section">
+      <h2>How We Help</h2>
+      <ul>
+        <li>Automatically reply to customer inquiries</li>
+        <li>Instant AI-based quote generation</li>
+        <li>Save time and close more deals</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Want a free demo?</h2>
+      <a class="cta" href="mailto:contacto@bdigitalsweb.com">Email us now</a>
+    </div>
+
+    <div class="divider"></div>
+  </div>
+
+  <div class="content" id="content-pt" style="display: none;">
+    <div class="section">
+      <h2>O que fazemos</h2>
+      <p>Criamos soluções inovadoras com IA para pequenas empresas: formulários inteligentes, respostas automáticas, orçamentos instantâneos, e mais. Tudo simples, rápido e sem código.</p>
+    </div>
+
+    <div class="section">
+      <h2>Como ajudamos</h2>
+      <ul>
+        <li>Respostas automáticas a pedidos de clientes</li>
+        <li>Geração instantânea de orçamentos com IA</li>
+        <li>Poupança de tempo e aumento de vendas</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Queres testar grátis?</h2>
+      <a class="cta" href="mailto:contacto@bdigitalsweb.com">Envia-nos um e-mail</a>
+    </div>
+
+    <div class="divider"></div>
+  </div>
+
+  <div class="content" id="content-nl" style="display: none;">
+    <div class="section">
+      <h2>Wat we doen</h2>
+      <p>We creëren innovatieve AI-oplossingen voor kleine bedrijven: slimme formulieren, automatische antwoorden, instant quotes, en meer. Simpel, snel, zonder code.</p>
+    </div>
+
+    <div class="section">
+      <h2>Hoe we helpen</h2>
+      <ul>
+        <li>Automatisch reageren op klantvragen</li>
+        <li>Directe AI-gebaseerde offertegeneratie</li>
+        <li>Tijd besparen en meer deals sluiten</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Wil je een gratis demo?</h2>
+      <a class="cta" href="mailto:contacto@bdigitalsweb.com">Stuur ons nu een e-mail</a>
+    </div>
+
+    <div class="divider"></div>
+  </div>
+
+  <div class="content" id="content-fr" style="display: none;">
+    <div class="section">
+      <h2>Ce que nous faisons</h2>
+      <p>Nous créons des solutions innovantes basées sur l'IA pour les petites entreprises : formulaires intelligents, réponses automatiques, devis instantanés, et plus encore. Simple, rapide, sans code nécessaire.</p>
+    </div>
+
+    <div class="section">
+      <h2>Comment nous aidons</h2>
+      <ul>
+        <li>Répondre automatiquement aux demandes des clients</li>
+        <li>Génération instantanée de devis avec IA</li>
+        <li>Gagner du temps et conclure plus de ventes</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Souhaitez-vous une démo gratuite?</h2>
+      <a class="cta" href="mailto:contacto@bdigitalsweb.com">Envoyez-nous un e-mail maintenant</a>
+    </div>
+
+    <div class="divider"></div>
+  </div>
+
+  <footer>
+    &copy; 2025 BDigitalWeb. Todos os direitos reservados. | contacto@bdigitalsweb.com
+  </footer>
+
+  <script>
+    function switchLanguage() {
+      var contentEn = document.getElementById('content-en');
+      var contentPt = document.getElementById('content-pt');
+      var contentNl = document.getElementById('content-nl');
+      var contentFr = document.getElementById('content-fr');
+      var langSwitcher = document.querySelector('.lang-switcher');
+      
+      if (contentEn.style.display === 'none') {
+        contentEn.style.display = 'block';
+        contentPt.style.display = 'none';
+        contentNl.style.display = 'none';
+        contentFr.style.display = 'none';
+        langSwitcher.innerText = 'PT';
+      } else if (contentPt.style.display === 'none') {
+        contentEn.style.display = 'none';
+        contentPt.style.display = 'block';
+        contentNl.style.display = 'none';
+        contentFr.style.display = 'none';
+        langSwitcher.innerText = 'NL';
+      } else if (contentNl.style.display === 'none') {
+        contentEn.style.display = 'none';
+        contentPt.style.display = 'none';
+        contentNl.style.display = 'block';
+        contentFr.style.display = 'none';
+        langSwitcher.innerText = 'FR';
+      } else {
+        contentEn.style.display = 'none';
+        contentPt.style.display = 'none';
+        contentNl.style.display = 'none';
+        contentFr.style.display = 'block';
+        langSwitcher.innerText = 'EN';
+      }
+    }
+  </script>
+</body>
+</html>
